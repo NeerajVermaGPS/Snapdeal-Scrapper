@@ -25,12 +25,8 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: transparent;
-  border-radius: 10px;
-}
-
-:hover::-webkit-scrollbar-thumb {
   background: #343468;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
