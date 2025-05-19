@@ -43,8 +43,7 @@ pip install -r requirements.txt
 ### 4. Set environment variables (inside `.env` file):
 
 ```env
-FLASK_APP=app.py
-FLASK_ENV=development
+FRONTEND_ORIGIN=http://localhost:5173
 ```
 
 ### 5. Run the server:

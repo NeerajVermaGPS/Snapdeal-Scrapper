@@ -11,7 +11,7 @@ const App = () => {
     if (!query || loading) return;
     setLoading(true);
     try {
-      const res = await fetch(`http://127.0.0.1:5000/api/scrape?q=${query}`);
+      const res = await fetch(`https://dealscope.onrender.com/api/scrape?q=${query}`);
       const data = await res.json();
       setProducts(data);
     } catch (err) {
