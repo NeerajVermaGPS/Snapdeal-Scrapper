@@ -79,11 +79,15 @@
 }
 
 @media only screen and (max-width: 500px) {
+    .search-page {
+        height: 500px;
+    }
+
     .search-content h1 {
-        font-size: 30px;
+        font-size: 33px;
     }
 
     .search-content p {
-        font-size: 13px;
+        font-size: 14px;
     }
 }

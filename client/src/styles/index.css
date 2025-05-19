@@ -10,8 +10,31 @@ html {
   padding: 0;
   scroll-behavior: smooth;
   font-family: var(--theme-primary-font);
+  background-color: #06010e;
   user-select: none;
   -webkit-user-select: none;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 10px;
+}
+
+:hover::-webkit-scrollbar-thumb {
+  background: #343468;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #49497d;
 }
 
 * {
