@@ -1,8 +1,8 @@
-# DealScope
+# Dealvoyant
 
 **Spot the Best Deals Instantly**
 
-DealScope is a modern, full-stack web application that allows users to search for products on Snapdeal and instantly fetch detailed product information including titles, prices, ratings, images, and product links — all in a clean, responsive interface.
+Dealvoyant is a modern, full-stack web application that allows users to search for products on Snapdeal and instantly fetch detailed product information including titles, prices, ratings, images, and product links — all in a clean, responsive interface.
 
 ## Tech Stack
 

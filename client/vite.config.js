@@ -8,8 +8,8 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "DealScope",
-        short_name: "DealScope",
+        name: "Dealvoyant",
+        short_name: "Dealvoyant",
         description: "Spot the Best Deals Instantly",
         start_url: "/",
         display: "standalone",
